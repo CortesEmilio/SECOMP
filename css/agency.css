@@ -129,6 +129,8 @@ header #ImagenPrincipal {
 
 }
 
+
+
 .overlay h1{
   border-right: 50;
   position: absolute;
@@ -152,7 +154,7 @@ header #ImagenPrincipal {
 
 
 #mainNav {
-  background-color: #221D23;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -161,32 +163,37 @@ header #ImagenPrincipal {
   padding: 13px;
   text-transform: uppercase;
   border: 0;
-  background-color: black;
-  color: #DDB967;
+  background-color: transparent;
+  color: black;
 
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-#mainNav .navbar-brand  {
-  background-color: black;
+#mainNav .navbar-brand #ImagenLogo {
+  /*
   color: #DDB967;
   font-family: 'Monsterrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+*/
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+
 }
 
 
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  background-color: black;
+  background-color: transparent;
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #DDB967;
+  color: black;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav  .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: white;
+  color: red;
 }
 
 
@@ -202,7 +209,7 @@ header #ImagenPrincipal {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: black;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -242,12 +249,15 @@ header #ImagenPrincipal {
 
   }
 
+#ImagenPrincipal{
+  visibility: hidden;
+}
 #Subtexto_Overlay{
   visibility: hidden;
 }
 
 #mainNav{
-  background-color: black;
+  background-color: transparent;
 }
 
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -346,8 +356,9 @@ header #ImagenPrincipal {
   }
 }
 
+
 #mainNav{
-  background-color: black;
+  background-color: white;
 }
 
 
