@@ -47,6 +47,8 @@ h6 {
 }
 .page-section {
   padding: 100px 0;
+  color:#7c0a02;
+
 }
 
 .page-section h2.section-heading {
@@ -120,7 +122,7 @@ img::-moz-selection {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-header #ImagenPrincipal {
+header .s1 {
   top: 50%;
   left: 50%;
   width: 100%;
@@ -136,13 +138,13 @@ header #ImagenPrincipal {
   position: absolute;
   left: 50%;
   top:25%;
-  color:	black  ;
+  color:#420D09  ;
   z-index: 1;
   font-size: 4.3vw;
 }
 
 #Subtexto_Overlay{
-  color: black;
+  color:#420D09;
   top: 80%;
   border-right: 50;
   position: absolute;
@@ -277,6 +279,8 @@ header #ImagenPrincipal {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color:#7c0a02;
+
 }
 
 #portfolio .portfolio-item {
@@ -452,7 +456,7 @@ header #ImagenPrincipal {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #0f0f0f;
 }
 
 .timeline > li {
@@ -501,9 +505,9 @@ header #ImagenPrincipal {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #0f0f0f;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #FF2400;
 }
 
 .timeline > li .timeline-image h4 {
